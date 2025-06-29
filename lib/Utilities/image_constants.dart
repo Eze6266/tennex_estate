@@ -9,6 +9,7 @@ class kImages {
   static const String house2 = '$_baseImageAsset/house2.jpg';
   static const String house4 = '$_baseImageAsset/house4.jpg';
   static const String houseimg = '$_baseImageAsset/houseimg.png';
+  static const String orb = '$_baseImageAsset/orb.png';
 
   //////////////////////////******** IMAGES*************/////////////////
 

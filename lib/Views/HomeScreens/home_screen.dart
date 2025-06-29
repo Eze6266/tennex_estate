@@ -119,6 +119,7 @@ class _HomeScreenState extends State<HomeScreen> {
           ),
         ),
         actions: [
+          Image.asset(kImages.orb),
           SvgPicture.asset(
             kImages.searchicon,
             height: hp(3),
@@ -283,6 +284,31 @@ class _HomeScreenState extends State<HomeScreen> {
           ),
         ),
       ),
+      // floatingActionButton: Padding(
+      //   padding: EdgeInsets.only(bottom: hp(10)),
+      //   child: Container(
+      //     height: hp(4.5),
+      //     width: wp(30),
+      //     padding: EdgeInsets.symmetric(
+      //       horizontal: wp(2),
+      //       vertical: hp(0.5),
+      //     ),
+      //     decoration: BoxDecoration(
+      //       color: kColors.purple,
+      //       borderRadius: BorderRadius.circular(9),
+      //     ),
+      //     child: Row(
+      //       mainAxisAlignment: MainAxisAlignment.center,
+      //       children: [
+      //         kTxt(
+      //           text: 'Tennex AI',
+      //           weight: FontWeight.w500,
+      //         ),
+      //         Image.asset(kImages.orb),
+      //       ],
+      //     ),
+      //   ),
+      // ),
     );
   }
 }
